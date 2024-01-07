@@ -14,8 +14,10 @@ Front end language used: HTML, CSS, Javascript
 ### Stage 1: Base 
 - [x]This stage is complete: basic structural design: minimalistic black and white, old money/classy font.
 
+
 ### Stage 2: Javascript
 To add simple javascript interaction on navigation bar and form. Add dynamic and interactive background (spinning logo) floating content. 
+Add instagram section to showcase recent posts. (instagram API) - public account required
 
 ### Stage 3: Backend
 Build an admin dashboard to view sent data, organised by name. A built in reward point system: points added every time a given promotion code is used. 
