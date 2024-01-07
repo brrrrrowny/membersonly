@@ -1,9 +1,9 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Stages](#stages)
-  - [Stage 1: HTML](#stage-1_base)
-  - [Stage 2: CSS](#stage-2-javascript)
-  - [Stage 3: JavaScript](#stage-3-backend)
+  - [Stage 1: Base](#stage-1_base)
+  - [Stage 2: Javascript](#stage-2-javascript)
+  - [Stage 3: Backend](#stage-3-backend)
 - [License](#license)
 
 ## Introduction
