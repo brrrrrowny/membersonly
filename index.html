@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+    Designer: Browny
+    Website: browny59.info
+    Language used: HTML5, CSS
+
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Your Event</title>
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="img/logo.jpg" alt="Members Only Logo">
+            <h1>Members Only</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#next-event">Next Event</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!--Main body-->
+        <section id="apply-now">
+            <div class="form-container">
+                <h1>Apply Now</h1>
+                <!--Application form-->        
+                <form>
+                    <input id="name" data-cy="name" name="name" placeholder="Name*" class="ds__input ds__input--dark" pattern="[A-Za-z\s]+" title="Only letters and spaces are allowed" required>
+
+                    <input id="number" data-cy="number" name="number" placeholder="Number*" class="ds__input ds__input--dark" type="tel" pattern="[0-9]+" title="Only numbers are allowed" required>
+
+                    <!-- Add the submit button -->
+                    <button type="submit" class="submit-button">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer content -->
+        <div class="privacy-policy">
+            <p><a href="privacy.html">Privacy Policy</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>

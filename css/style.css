@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Garamond", "Georgia", serif;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #000;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0; /* Adjust padding as needed */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.logo-container {
+    position: absolute;
+    top: 50px; /* Adjusted for a bigger gap */
+    left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    max-width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.members-only {
+    font-size: 18px;
+    margin-top: 10px; /* Adjusted for a bigger gap */
+}
+
+main {
+    padding-top: 120px; /* Adjusted for a bigger gap */
+}
+
+#apply-now {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.form-container {
+    max-width: 600px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #000;
+}
+
+form {
+    display: grid;
+    grid-gap: 15px;
+    padding: 15px; /* Padding for the entire form */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    background-color: #000;
+    outline: none;
+}
+
+input:focus {
+    border-bottom: 2px solid #fff;
+}
+
+button {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 600px) {
+    #apply-now {
+        min-height: auto;
+    }
+
+    .form-container {
+        padding: 10px;
+    }
+}
+
+footer {
+    padding: 20px;
+}
+
+.privacy-policy {
+    color: rgba(255, 255, 255, 0.6); /* Semi-transparent white color */
+    font-size: 12px;
+    text-align: left;
+}
+
+.privacy-policy a {
+    color: rgba(255, 255, 255, 0.8); /* Slightly less transparent for the link */
+    text-decoration: underline;
+}
