@@ -17,11 +17,12 @@ Front end language used: HTML, CSS, Javascript
 
 ### Stage 2: Javascript
 To add simple javascript interaction on navigation bar and form. Add dynamic and interactive background (spinning logo) floating content. 
-Add instagram section to showcase recent posts. (instagram API) - public account required
+Add instagram section to showcase recent posts. (instagram API) - public account required.
+Add intergrated ticket sale window using eventix API.
 
 ### Stage 3: Backend
 Build an admin dashboard to view sent data, organised by name. A built in reward point system: points added every time a given promotion code is used. 
-Implement sms verification (anti-spam measure) on the application form. (can be google recaptcha)
+Implement sms verification (anti-spam measure) on the application form. (can be google recaptcha).
 
 
 ## License
